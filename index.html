@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>WeeDoo PH</title>
+
+    <!-- Scripts -->
+    <script src="./js/app.js" defer></script>
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <!-- Styles -->
+    <link href="./css/app.css" rel="stylesheet" />
+  </head>
+  <body data-spy="scroll">
+    <div id="app">
+      <nav
+        class="navbar sticky-top navbar-expand-md navbar-light bg-white shadow-sm"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="/">
+            <img
+              src="./img/icon.png"
+              width="75"
+              height="75"
+              alt="logo"
+              loading="lazy"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto text-center font-weight-bold">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About WeeDoo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#benefits">Benefits</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sign up now</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main>
+        <section id="home" class="bg-theme-primary py-4">
+          <div class="container mt-6">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <div class="p-5">
+                  <h2
+                    class="pt-2 text-white text-center text-3xl tracking-wide font-weight-bold"
+                  >
+                    Worried about how your restaurant will operate safely during
+                    these difficult times?
+                  </h2>
+                </div>
+              </div>
+              <div class="col-md-6 d-flex flex-column align-content-center">
+                <h2
+                  class="pt-2 text-black-50 text-center text-2xl font-weight-bold"
+                >
+                  Watch the video
+                </h2>
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe
+                    class="embed-responsive-item"
+                    src="https://www.youtube.com/embed/8T6BdbAjcMs"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="about" class="py-4">
+          <div class="container mt-6">
+            <div class="row align-items-center">
+              <div class="col-md-6 order-md-last">
+                <div class="p-5">
+                  <h2 class="text-3xl tracking-wide font-weight-bold">
+                    <span class="border-lg-bottom-2 pb-2">Introducing</span>
+                    <span class="text-theme-primary">Wee</span
+                    ><span class="text-theme-secondary">Doo</span>...
+                  </h2>
+                  <p class="mt-3 text-xl">
+                    With this easy to use web app, your restaurant will be able
+                    to give safety environment, peace of mind and convenience to
+                    your customers while it boost store productivity and help
+                    increasing your sales at the same time.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="col-md-6 order-md-first d-flex flex-column align-content-center"
+              >
+                <img
+                  class="object-cover"
+                  src="./img/mobile_plus_qr.png"
+                  alt="mobile_plus_qr"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="benefits" class="bg-theme-primary py-4">
+          <div class="container mt-6">
+            <h4
+              class="text-left text-3xl text-white font-weight-bold tracking-wide mb-5"
+            >
+              <span class="border-lg-bottom-2-white pb-2">Excellent</span>
+              Benefits
+            </h4>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="mb-3">
+                  <dt class="text-white text-2xl mb-2">
+                    <i class="fas fa-check mr-2"></i>
+                    <span>It's Contact Less</span>
+                  </dt>
+                  <dd class="text-white tracking-wide">
+                    It's the BEST solution for SOCIAL DISTANCING for FnB and
+                    hospitality industries. With this technology, social
+                    distancing will be implemented accurately.
+                  </dd>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="mb-3">
+                  <dt class="text-white text-2xl mb-2">
+                    <i class="fas fa-check mr-2"></i> <span>Convenient</span>
+                  </dt>
+                  <dd class="text-white tracking-wide">
+                    It gives convenience for both merchants and customers at
+                    this time of unstable situation.
+                  </dd>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="mb-3">
+                  <dt class="text-white text-2xl mb-2">
+                    <i class="fas fa-check mr-2"></i>
+                    <span>Get high volume of orders</span>
+                  </dt>
+                  <dd class="text-white tracking-wide">
+                    Received more orders simultaneous and increase sales,
+                    without adding more POS or Ordering stations. Take Order
+                    faster!
+                  </dd>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="mb-3">
+                  <dt class="text-white text-2xl mb-2">
+                    <i class="fas fa-check mr-2"></i>
+                    <span>Cost Effective</span>
+                  </dt>
+                  <dd class="text-white tracking-wide">
+                    No need for BIG investment just to have your Self Ordering
+                    Kiosk or Add addition POS/Ordering station. No need for big
+                    spaces.
+                  </dd>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="mb-3">
+                  <dt class="text-white text-2xl mb-2">
+                    <i class="fas fa-check mr-2"></i> <span>Good Feedback</span>
+                  </dt>
+                  <dd class="text-white tracking-wide">
+                    Received great impression to more customers for service
+                    speed.
+                  </dd>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="mb-3">
+                  <dt class="text-white text-2xl mb-2">
+                    <i class="fas fa-check mr-2"></i>
+                    <span>No More Long Lines</span>
+                  </dt>
+                  <dd class="text-white tracking-wide">
+                    No more long wait for servers/waiters/cashiers. Just to make
+                    orders.
+                  </dd>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="mb-3">
+                  <dt class="text-white text-2xl mb-2">
+                    <i class="fas fa-check mr-2"></i> <span>No Download</span>
+                  </dt>
+                  <dd class="text-white tracking-wide">
+                    No need to download apps and sign-in required. Just scan the
+                    QR code and choose your order.
+                  </dd>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="mb-3">
+                  <dt class="text-white text-2xl mb-2">
+                    <i class="fas fa-check mr-2"></i>
+                    <span>Less Order Error</span>
+                  </dt>
+                  <dd class="text-white tracking-wide">
+                    Received order made by the customers using their mobile
+                    devices. No mis-communication for orders.
+                  </dd>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="contact" class="py-4">
+          <div class="container mt-6">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <h4 class="text-left text-4xl font-weight-bold tracking-wide">
+                  About <span class="text-theme-primary">Wee</span
+                  ><span class="text-theme-secondary">Doo</span>?
+                </h4>
+                <p class="mt-3 text-xl">
+                  WeeDoo is our short term for “WE DO IT FOR YOU” it was a web
+                  platform that aims to give convenience to businesses and its
+                  customers using a QR code in their mobile devices. It was a
+                  solution for businesses like, any restaurants, hotels, resorts
+                  and to any related establishment for social distancing.
+                </p>
+                <p class="mt-3 text-xl">
+                  It is an online application that enables diners to scan a QR
+                  code and access establishment menu using a mobile device. It
+                  simply allows customers/guest to easily make an order
+                  instantly at the store. Once the order is confirmed, you just
+                  need to wait for your food to be served instantly. It is
+                  equipped with all the functions you need to have a very
+                  convenient unique dining experience.
+                </p>
+              </div>
+              <div class="col-md-6 d-flex flex-column align-content-center">
+                <img
+                  class="object-fill"
+                  src="./img/phone_ordertype.png"
+                  alt="mobile_plus_qr"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
